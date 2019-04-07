@@ -1,0 +1,294 @@
+/** {
+  border: 1px solid red;
+}*/
+
+
+.cf:before, .cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.jumbotron {
+  background: url(../img/pilkadaa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(80%);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.jumbotron .profile {
+  border: 2px solid #333;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.jumbotron * {
+  filter: none;
+  color: white;
+}
+
+body h2 {
+  color: #fafafa;
+  position: relative;
+}
+
+.isi {
+  background: #fff;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  text-align: center;
+  margin: auto;
+  border-radius: 7px;
+  position: relative;
+  top: -150px;
+}
+
+.isi .row {
+  padding: 10px;
+}
+
+.row {
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row img {
+  width: 350px;
+  height: 265px;
+}
+
+.footer {
+  padding: 30px;
+  background-color: #eee;
+  text-align: center;
+  border-top: 3px solid #e2e2e2;
+}
+
+nav * {
+  color: white;
+}
+
+.navbar-custom {
+  color: #FFFFFF;
+  background-color: #CC3333;
+}
+
+/*// tes {
+	.navbar-nav {
+		padding-top: .425rem;
+		padding-left: 0.75rem;
+	}
+	.navbar-nav .nav-item {
+		float: none;
+	}
+	.navbar-brand {
+		float: right;
+	}
+	.navbar-brand,
+	.navbar-nav .nav-item {
+		display: block;
+	}
+	.navbar-nav .nav-item + .nav-item {
+		margin-left: 0;
+	}
+	.dropdown-menu {
+		position: relative;
+		float: none;
+	}
+}*/
+
+.navigasi {
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(94, 97, 128, 0.91), 0 6px 20px 0 rgba(0, 0, 0, 0.62);
+  /*width: 80%;*/
+  display: block;
+  text-align: center;
+}
+
+ul.navbar-nav {
+  margin: auto;
+}
+
+.navbar .navbar-toggler {
+  float: left;
+}
+
+/*
+.navigasi * {
+  display: inline-block;
+  list-style: none;
+}
+.navigasi a {
+  padding: 5px 17px;
+  margin-left: 20px;
+}*/
+
+.caption {
+  overflow: hidden;
+  height: 40px;
+  color: #000c;
+  display: none;
+}
+
+.socialsnbt a {
+  display: inline-block;
+  margin: 0 2px 5px 0;
+  padding: 12px;
+  filter: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  color: #000;
+  border: 1px solid #000;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  text-align: center;
+  border-radius: 40px;
+  border-bottom: 1px solid #444649;
+  padding-bottom: 15px;
+}
+.socialsnbt * {
+  list-style: none;
+  text-decoration: none;
+}
+.status .man {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.status  {
+ text-align: left;
+ border: 1px solid #eee;
+ border-radius: 7px;
+ margin-bottom: 30px;
+ padding: 10px;
+}
+.socialsnbt i.fa {
+  margin-top: 10px;
+}
+.status .man  *{
+  display: inline-block;
+}
+.status .man img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+
+}
+.col-sm-12 .thumbnail {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.thumbnail img {
+  margin-bottom: 30px;
+}
+.thumbnail p {
+  text-align: left;
+}
+body .thumbnail * {
+  color:#555;
+}
+.note {
+  margin-bottom: 20px;
+}
+
+.box-log{
+  position: absolute;
+  left: 50%;
+}
+
+.containers {
+  position: relative;
+  width: 50%;
+}
+
+.images {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.overlays {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.containers:hover .overlays {
+  opacity: 1;
+}
+
+.texts {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+input[type="radio"]{
+  visibility: hidden;
+}
+a.btn.btn-primary.dis {
+  color: white;
+}
+a.btn.btn-primary.dis:link, a.btn.btn-primary.dis:visited { /* or a[href] */
+  color: white;
+}
+.fa.fa-check::before{
+  color: white;
+}
+        .overlay {
+        position: absolute;
+        bottom: 100%;
+        top: 25px;
+        left: 17px;
+        right: 0;
+        background-color: #0E2044;
+        overflow: hidden;
+        width: 91.2%;
+        height: 0;
+        transition: .3s ease;
+        }
+        .name-team {
+        position: absolute;
+        top: 80%;
+        left: 17px;
+        right: 0;
+        z-index: 1;
+        background-color: #2F2F31;
+        overflow: hidden;
+        width: 91.2%;
+        height: 15%;
+        transition: .5s ease;
+        }
