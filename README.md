@@ -1,2 +1,2 @@
 # pilkada
-Aplikasi untuk voting pilkada menggunakan PHP dan CI
+Application to vote public election using PHP and CI
